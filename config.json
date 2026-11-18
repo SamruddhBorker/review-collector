@@ -1,0 +1,15 @@
+{
+  "business_name": "Coastal Café",
+  "business_phone": "+91 00000 00000",
+  "google_place_id": "ChIJ_REPLACE_WITH_YOUR_PLACE_ID",
+  "default_country_code": "91",
+  "channels": ["console"],
+  "first_delay_hours": 3,
+  "followup_days": 3,
+  "max_age_days": 14,
+  "quiet_hours": {"start": "20:00", "end": "10:00"},
+  "templates": {
+    "first": "Hi $first_name, thanks for visiting $business! If you have a minute, an honest Google review really helps a small business like ours: $link\nWant to tell us something privately instead? Just reply to this message.\nReply STOP and we won't message you again.",
+    "followup": "Hi $first_name, a gentle reminder from $business: if you'd like to share your honest experience, this is the link: $link\nReply STOP and we won't message you again."
+  }
+}
